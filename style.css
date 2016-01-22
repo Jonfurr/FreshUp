@@ -1,0 +1,53 @@
+#main {
+	background-color: #000;
+	margin-top: -20px;
+}
+.main-grid {
+	margin: 50px 0px;
+}
+.grid {
+	border: 1px solid #33d04d;
+	background-color: #55e15e;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	width: 140px;
+	height: 140px;
+}
+.grid:hover {
+	background-color: #88f37f;
+}
+.grid-black {
+	border: none;
+	background-color: #000;
+}
+.grid-black:hover {
+	border: none;
+	background-color: #000;
+}
+
+.grid-img {
+	display: inline;
+	width: 140px;
+	height: 140px;
+	background-image: url('images/sammy.jpg');
+	background-size: 140px 140px;
+}
+#home-link, #clients-link{
+	color: black;
+	font-size: 2em;
+	margin-top: 55px;
+	text-align: center;
+	text-decoration: none;
+}
+.hide {
+	display: none;
+	visibility: none;
+	opacity:0%;
+	transition: opacity(1s)
+}
+
+.show {
+	display: inline;
+	visibility: visible;
+	opacity: 100%
+}
