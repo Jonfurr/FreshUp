@@ -5,152 +5,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="FreshUp Studios Site">
+    <meta name="description" content="FreshUp Studio Site">
     <meta name="author" content="JonFurr">
-    <title>Fresh Up Studios</title>
+    <title>Fresh Up Studio</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css">
+    <link rel="stylesheet" href="./slick-1.5.9/slick/slick-theme.css">
+    
+
+
    	<link rel="stylesheet" href="./style.css">
   </head>
   <body>
-
-   
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron" id='jumbo'>
       <div class="container" >
-        <h1 id='logo'>Fresh Up Studios</h1>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Book Time &raquo;</a></p>
+        <h1 id='logo'>Fresh Up Studio</h1>
+        <h2 id='sub-logo'>Recording | Mixing | Mastering</h2>
+        <p><a id='book' class="btn btn-primary btn-lg" href="mailto:s.patlove@gmail.com" role="button">Book Time &raquo;</a></p>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" id='content'>
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-3">
         	<div class='stuff'>
 	          <h2 class='sub-heading btn btn-default'>Clients</h2>
-	          <ul class='hide content'>
-	          	<li>T Bird</li>
-	          	<li>Greyhounds</li>
-	          	<li>Gimble</li>
-	          	<li>etc.</li>
-	          	<li>etc.</li>
-	          	<li>etc.</li>
-	          	<li>etc.</li>
+	          <ul class='content' style="display:none">
+	          	<li><a href='http://www.tbirdandthebreaks.com'>T Bird</a>
+					<div class="audiojs" classname="audiojs" id="audiojs_wrapper0">
+						<audio preload="auto" src="http://kolber.github.io/audiojs/demos/mp3/juicy.mp3">
+						</audio>
+						<div class="play-pause">
+							<p class="play"></p>
+							<p class="pause"></p>
+							<p class="loading"></p>
+							<p class="error"></p>
+						</div>
+							<div class="scrubber">
+								<div class="progress"></div>
+								<div class="loaded"></div>
+							</div>
+							<div class="error-message"></div>
+					</div>
+	          	</li>
+	          	<li><a href='#'>Greyhounds</a>
+					<div class="audiojs" classname="audiojs" id="audiojs_wrapper0">
+						<audio preload="auto" src="./audio/Runaway_rough.mp3">
+						</audio>
+						<div class="play-pause">
+							<p class="play"></p>
+							<p class="pause"></p>
+							<p class="loading"></p>
+							<p class="error"></p>
+						</div>
+							<div class="scrubber">
+								<div class="progress"></div>
+								<div class="loaded"></div>
+							</div>
+							<div class="time">             <em class="played">00:00</em>/<strong class="duration">03:56</strong>           </div>
+							<div class="error-message"></div>
+					</div>
+	          	</li>
+	          	<li><a href='#'>Gimble</a>
+					<div class="audiojs" classname="audiojs" id="audiojs_wrapper0">
+						<audio preload="auto" src="./audio/Tell Me Now_rough.mp3">
+						</audio>
+						<div class="play-pause">
+							<p class="play"></p>
+							<p class="pause"></p>
+							<p class="loading"></p>
+							<p class="error"></p>
+						</div>
+							<div class="scrubber">
+								<div class="progress"></div>
+								<div class="loaded"></div>
+							</div>
+							<div class="error-message"></div>
+					</div>
+	          	</li>
+	          	
 	          </ul>
 	        </div>
           <div class='stuff'>
-	          <h2 class='sub-heading btn btn-default'>Gear</h2>
-	          <ul class='hide content'>
-	          	<li>Mics</li>
-	          	<li>Guitars</li>
-	          	<li>Amps</li>
-	          	<li>Tape</li>
-	          	<li>Outboard</li>
-	          	<li>Board</li>
-	          	<li>Computer</li>
-	          </ul>
-          </div>
-          <div class='stuff'>
 	          <h2 class='sub-heading btn btn-default'>Contact</h2>
-	          <p class='hide content'>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+	          <p class='content' style="display:none">
+	          	<a href='mailto:s.patlove@gmail.com'>Email</a>
+	          </p>
+	          <p class='content' style="display:none">
+	          	2104 B E.12th st.<br>Austin, Tx 78702
+	          </p>
+	          <p class='content' style="display:none">
+	          	512.555.5555
+	          </p>
           </div>
         </div>
-        <div class='col-md-8'>
-			<table>
-			  <tr>
-			    <td class='bingo'> </td>
-			    <td class='bingo'> </td> 
-			    <td> </td>
-			    <td> </td>
-			    <td> </td> 
-			    <td> </td>
-			    <td> </td>
-			    <td class='bingo'> </td> 
-			  </tr>
-			   <tr>
-			    <td class='bingo'> </td>
-			    <td> </td> 
-			    <td> </td>
-			    <td> </td>
-			    <td class='bingo'> </td> 
-			    <td> </td>
-			    <td> </td>
-			    <td> </td> 
-			  </tr>
-			   <tr>
-			    <td> </td>
-			    <td> </td> 
-			    <td> </td>
-			    <td> </td>
-			    <td class='bingo'> </td> 
-			    <td class='bingo'> </td>
-			    <td> </td>
-			    <td> </td> 
-			  </tr>
-			   <tr>
-			    <td> </td>
-			    <td> </td> 
-			    <td> </td>
-			    <td> </td>
-			    <td> </td> 
-			    <td> </td>
-			    <td> </td>
-			    <td> </td> 
-			  </tr>
-			   <tr>
-			    <td> </td>
-			    <td> </td> 
-			    <td> </td>
-			    <td> </td>
-			    <td> </td> 
-			    <td> </td>
-			    <td> </td>
-			    <td class='bingo'> </td> 
-			  </tr>
-			   <tr>
-			    <td> </td>
-			    <td> </td> 
-			    <td class='bingo'> </td>
-			    <td> </td>
-			    <td> </td> 
-			    <td> </td>
-			    <td> </td>
-			    <td> </td> 
-			  </tr>
-			   <tr>
-			    <td> </td>
-			    <td> </td> 
-			    <td> </td>
-			    <td> </td>
-			    <td> </td> 
-			    <td> </td>
-			    <td> </td>
-			    <td> </td> 
-			  </tr>
-			   <tr>
-			    <td> </td>
-			    <td class='bingo'> </td> 
-			    <td> </td>
-			    <td> </td>
-			    <td> </td> 
-			    <td> </td>
-			    <td> </td>
-			    <td> </td> 
-			  </tr>
-
-			</table>
+        <div class='col-md-9'>
+	     <div class="slick">
+		  <div><img class='slick' src="http://placehold.it/350x150"></div>
+		  <div><img class='slick' src="http://placehold.it/550x250"></div>
+		  <div><img class='slick' src="http://placehold.it/190x250"></div>
+		  <div><img class='slick' src="http://placehold.it/190x200"></div>
+		  <div><img class='slick' src="http://placehold.it/220x150"></div>
+		  <div><img class='slick' src="http://placehold.it/156x210"></div>
+		  <div><img class='slick' src="http://placehold.it/180x180"></div>
+		  <div><img class='slick' src="http://placehold.it/145x250"></div>
+		  <div><img class='slick' src="http://placehold.it/125x245"></div>
+		</div>
         </div>
       </div>
       <hr>
 
       <footer>
-        <p>&copy; 2015 CDON</p>
+        <p>&copy; 2016 CDON</p>
       </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="./audiojs/audiojs/audio.min.js"></script>
+    <script>audiojs.events.ready(function() {
+		var as = audiojs.createAll();
+	});
+</script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
     <script src='./main.js'></script>
   </body>
 </html>
