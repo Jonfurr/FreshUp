@@ -2,6 +2,8 @@
 	display: inline;
 	margin-bottom: 5px;
 }*/
+
+
 .audiojs {
 	width: 250px;
 }
@@ -11,16 +13,29 @@
 #jumbo{	
 	background-color: rgba(0,0,0,.4);
 	border-bottom: 1px solid black;
+	height:300px;
 }
 #book {
-	margin-top: 40px;
+	margin-top: -10px;
+	margin-left: 50px;
+	background-color: #000;
+	border: 1px solid #fff;
+	-webkit-transition: all .4s;
+    transition: all .4s;
+
+}
+#book:hover {
+	background-color: #666;
 }
 #logo{
 	font-weight: bold;
 	text-shadow: 1px 1px #fff;
+	font-family: 'Anton', sans-serif;
+	font-size: 80pt;
 }
 #sub-logo{
-	margin-top: -5px;
+	margin-left: 20px;
+	font-size: 2em;
 }
 .sub-heading{
 	display: block;
@@ -32,6 +47,10 @@
 }
 .content {
 	margin: 25px 0px 5px 15px
+}
+
+.contact{
+	margin-bottom: -20px;
 }
 li {
 	list-style: none;
